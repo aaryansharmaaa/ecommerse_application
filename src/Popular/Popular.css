@@ -1,0 +1,24 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popular h1{
+    font-size: 40px;
+}
+.popular hr{
+    height: 3px;
+    width: 20%;
+    background: black;
+    outline: none;
+    border: none;
+    margin: 10px auto;
+}
+.item-container{
+    display: flex;
+    gap: 20px;
+}
+.item-container :hover{
+    transform: scaleX(-1);
+    transition: 1s;
+}

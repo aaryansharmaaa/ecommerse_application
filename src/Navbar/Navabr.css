@@ -1,0 +1,69 @@
+.navbar{
+    height: 20vh;
+    background-color: rgba(58, 200, 19, 0.2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container img{
+    height: 90px;
+}
+.logo-container p{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+.navbar ul{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.navbar ul hr{
+    height: 3px;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.signup-container button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signup-container button:active{
+    background-color: antiquewhite;
+}
+.cart-container{
+    display: flex;
+}
+.cart-container img{
+    height: 70px;
+    cursor: pointer;
+}
+.cart-container p{
+    background-color: red;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 2px 5px;
+    margin-top: -7px;
+    margin-left: -10px;
+}

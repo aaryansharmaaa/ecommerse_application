@@ -1,0 +1,26 @@
+.offer{
+    height: 80vh;
+    width: 80%;
+    margin:  30px auto;
+    background:linear-gradient(180deg,pink,white 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.offer h1{
+    font-size: 40px;
+}
+.offer p{
+    font-size: 30px;
+    font-weight: 700;
+    color: gray;
+}
+.offer button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}

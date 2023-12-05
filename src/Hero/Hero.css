@@ -1,0 +1,44 @@
+.hero{
+    height: 115vh;
+    background: linear-gradient(180deg,pink,rgb(250, 205, 211) 60%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.hero-left{
+    gap: 50px;
+}
+.hero-left h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.hero-left h1{
+    font-size: 60px;
+    color: gray;
+}
+.hand-container{
+    display: flex;
+    align-items: center;
+}
+.hand-container img{
+    height: 50px;
+}
+.hand-container p{
+    font-size: 50px;
+    font-weight: 700;
+}
+.arrow-container{
+    margin-top: 20px;
+    height: 75px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 20px;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}

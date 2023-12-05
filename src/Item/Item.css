@@ -1,0 +1,23 @@
+.item{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition:2s;
+}
+.price-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.new-price{
+    font-size: 30px;
+    color: red;
+}
+.old-price{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: gray;
+}
+
