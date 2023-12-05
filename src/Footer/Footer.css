@@ -1,0 +1,40 @@
+.footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlogo p{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+.footer-link{
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footericoncontainer{
+    display: flex;
+    gap: 20px;
+}
+.fottercopyright{
+    display: flex;
+    flex-direction: column;
+}
+.fottercopyright hr{
+    height: 3px;
+    width: 60%;
+    margin: 5px auto;
+    background-color: black;
+}

@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 .item:hover{
-    transform: scale(1.05);
+    transform: scaleX(1.05);
     transition:2s;
 }
 .price-container{

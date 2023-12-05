@@ -1,0 +1,50 @@
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container img{
+    width: 90%;
+    margin: 10px auto;
+}
+.product-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 95%;
+    margin: auto;
+}
+.extra-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+.dark{
+    font-weight: 700;
+}
+.dropdown{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: gray;
+}
+.bottom-container{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-container button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background:gray;
+    font-size: 20px;
+    cursor: pointer;
+}
