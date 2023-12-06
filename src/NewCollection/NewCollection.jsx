@@ -11,7 +11,7 @@ const NewCollection = () => {
       <div className="collection-container">
         {
            collction.map((item,index)=>(
-            <Item key={index} name={item.name} old_price={item.old_price} new_price={item.new_price} image={item.image}/>
+            <Item key={index} name={item.name} old_price={item.old_price} new_price={item.new_price} image={item.image} id={item.id}/>
            ))
         }
       </div>

@@ -19,7 +19,7 @@ const Navbar = () => {
         <li onClick={() => setMenu('Kids')}><Link to='/kids' style={{ textDecoration: "none", color: 'black' }}>Kids</Link>{menu === 'Kids' ? <hr /> : <></>}</li>
       </ul>
       <div className="signup-container">
-        <Link to='/login'><button>Signup</button></Link>
+        <Link to='/signup'><button>Signup</button></Link>
         <div className="cart-container">
           <Link to='/cart'><img src={cart} alt="" /></Link>
           <p>0</p>

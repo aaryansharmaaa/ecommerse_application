@@ -23,7 +23,7 @@ const ShopCategory = (props) => {
           all_data.map((item, index) => {
             if (item.category === props.category) {
               return (
-                <Item key={index} name={item.name} image={item.image} old_price={item.old_price} new_price={item.new_price} />
+                <Item key={index} name={item.name} image={item.image} old_price={item.old_price} new_price={item.new_price} id={item.id}/>
               )
             }
             else {
@@ -34,6 +34,7 @@ const ShopCategory = (props) => {
       </div>
       <div className="bottom-container">
         <button>Explore More</button>
+        
       </div>
 
     </div>

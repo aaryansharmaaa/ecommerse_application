@@ -1,0 +1,27 @@
+.descreptionbox{
+    margin: 50px 50px;
+}
+.descreptionbox-navigator{
+    display: flex;
+
+}
+.descreption-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 171px;
+    height: 70px;
+    border: 1px solid #dfdfdf;
+}
+.fade{
+    background: #bfbfbf;
+    color: #555;
+}
+.descreptionbox-descreption{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+    border: 1px solid #bfbfbf;
+}
