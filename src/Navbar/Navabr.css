@@ -1,9 +1,10 @@
 .navbar{
     height: 20vh;
-    background-color: rgba(58, 200, 19, 0.2);
+    background-color: rgba(22, 152, 55, 0.2);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 10px;
 }
 .logo-container{
     display: flex;
