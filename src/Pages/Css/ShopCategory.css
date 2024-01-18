@@ -7,12 +7,22 @@
     width: 90%;
     margin: 10px auto;
 }
+
+@keyframes banneropener {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
 .product-container{
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 95%;
     margin: auto;
+    animation: banneropener 2s linear 1;
 }
 .extra-container{
     display: flex;

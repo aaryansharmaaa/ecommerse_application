@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './ProductDispaly.css';
 import star from '../Assets/star_icon.png';
 import star_dull from '../Assets/star_dull_icon.png';
+import { ShopContext } from '../Context/ShopContext';
 
 const ProductDisylay = (props) => {
-    const { product } = props;
+
+    const { product } = props;  
+    const {addToCart}=useContext(ShopContext);
     return (
         <div className='productdispaly'>
             <div className="productdisplay-left">
@@ -37,7 +40,10 @@ const ProductDisylay = (props) => {
                     </div>
                 </div>
                 <div className="product-discription">
-                    Introducing our versatile Cotton Jacket, a stylish blend of comfort and fashion. Crafted from high-quality cotton, this jacket offers a lightweight and breathable feel, making it perfect for any season. Its modern design ensures a trendy look, while the soft cotton fabric provides a cozy and comfortable fit.
+                    Introducing our versatile Cotton Jacket, a stylish blend of comfort and fashion. 
+                    Crafted from high-quality cotton, this jacket offers a lightweight and breathable 
+                    feel, making it perfect for any season. Its modern design ensures a trendy look, 
+                    while the soft cotton fabric provides a cozy and comfortable fit.
                 </div>
                 <div className="productdispaly-size">
                     <h1>Select Size</h1>
@@ -49,11 +55,10 @@ const ProductDisylay = (props) => {
                         <div>XXL</div>
                     </div>
                 </div>
-                <button>Add to Cart</button>
+                <button onClick={()=>{addToCart(product.id)}}>Add to Cart</button>
                 <div className="productDisplay">
-                    <p className='productDispaly'><span >Category :</span>{product.category}</p>                    
-                    <p className='productDispaly'><span >Tags :</span>Modern Latest</p>                    
-
+                    <p className='productDispaly'><span >Category :</span>{product.category}</p>
+                    <p className='productDispaly'><span >Tags :</span>Modern Latest</p>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ import dropdown from '../Assets/dropdown_icon.png';
 const ShopCategory = (props) => {
   const { all_data } = useContext(ShopContext);
   return (
-    <div>
+    <div >
       <div className="banner-container">
         <img src={props.banner} />
       </div>
